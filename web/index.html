@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SonicScope Web</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        canvas { border: 1px solid #ccc; width: 100%; height: 150px; }
+        #controls { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>SonicScope Web</h1>
+    <div id="controls">
+        <button id="record">Record</button>
+        <button id="stop" disabled>Stop</button>
+        <button id="play" disabled>Play</button>
+    </div>
+    <audio id="player" controls></audio>
+    <h2>Time Domain</h2>
+    <canvas id="waveform" width="600" height="150"></canvas>
+    <h2>Frequency Domain</h2>
+    <canvas id="frequency" width="600" height="150"></canvas>
+    <script src="app.js"></script>
+</body>
+</html>

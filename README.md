@@ -60,6 +60,10 @@ Tested with **Python 3.10+**
 
    Visit [http://localhost:8080](http://localhost:8080) to use the web-based interface.
 
+## 🌐 Static Web Demo
+
+A lightweight front-end version is available in the `web` directory. Open `web/index.html` in a modern browser to record audio, visualize time and frequency domains, and play back recordings without running the Python server.
+
 ## 📂 File Structure
 
 ```bash
@@ -67,6 +71,9 @@ SonicScope/
 ├── assets/                # Audio files (input/output WAV)
 │   ├── input.wav
 │   └── output.wav
+├── web/                   # Standalone web client
+│   ├── index.html
+│   └── app.js
 ├── config.py              # Central config and shared plots
 ├── gui.py                 # NiceGUI front-end layout
 ├── signal_tools.py        # Recording, playback, upload, plotting
@@ -98,4 +105,3 @@ GitHub: [https://github.com/rh8991/signal-processing-roadmap](https://github.com
 ## 📄 License
 
 This project is licensed under the MIT License.
-# SonicScope-LITE
